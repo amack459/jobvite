@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "Amasis";
+  font-style: normal;
+  font-weight: bold;
+  src: url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.eot?#iefix') format('embedded-opentype'),
+  url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff2') format('woff2'),
+  url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff') format('woff'),
+  url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.ttf') format('truetype');
+}
+
+div {
+  display: block;
+}
+
+body {
+  font-family: Roboto,Arial,sans-serif;
+}
+
+.jv-page {
+  margin: 0 auto;
+  width: 780px;
+}
+
+/*BUTTONS*/
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+.jv-job-detail-top-actions {
+  float: right;
+  margin-top: -100px;
+}
+
+.jv-button-hollow:visited, .jv-button:visited {
+  color: #555;
+}
+
+.jv-page-job, .jv-header {
+  padding-right: 4em;
+}
+
+/*cover letter & social media*/
+
+.jv-button-hollow, .jv-button-hollow:visited, .jv-button, .jv-button-list-item {
+  background-image: -owg-linear-gradient(transparent, rgba(0,0,0,0.1));
+  background-image: -webkit-linear-gradient(transparent, rgba(0,0,0,0.1));
+  background-image: -moz-linear-gradient(transparent, rgba(0,0,0,0.1));
+  background-image: -o-linear-gradient(transparent, rgba(0,0,0,0.1));
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.1));
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 0.2em;
+  border: solid 1px #ccc;
+  color: #555;
+  display: inline-block;
+  line-height: inherit;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  text-align: center;
+  vertical-align: top;
+  width: 18%;
+}
+
+.jv-button-hollow, .jv-button-hollow:visited, .jv-button, .jv-button-list-item, a.jv-button {
+  display: inline-block;
+  margin: 0;
+  padding: 0.4em 0.9em;
+  width: auto;
+}
+
+/*large buttons*/
+
+.jv-button-primary, .jv-button-large {
+  padding: calc(.875rem - 1px) 1.5rem;
+  font-size: 1.15rem;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: .5rem;
+  color: #fff;
+  background-color: #028dd0;
+  border: solid 1px #028dd0;
+  color: #fff;
+  text-shadow: -1px -1px 1px rgba(0,0,0,0.1);
+  border-radius: 0.2em;
+}
+
+.jv-button-large {
+  font-size: 1.2em;
+  padding-bottom: 0.6em;
+  padding-top: 0.6em;
+}
+
+/*FORM*/
+
+div.jv-form-field-input {
+  color: #555;
+}
+
+.jv-apply-section {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 1em;
+}
+
+.jv-apply-form-actions {
+  margin-top: 1em;
+}
+
+.jv-form input[type="text"], .jv-form input[type="password"], .jv-form input[type="tel"], .jv-form input[type="email"], .jv-form input[type="number"], .jv-form input[type="date"], .jv-form input[type="search"], .jv-form textarea {
+  display: inline;
+  padding: 0.4em;
+  width: 300px;
+}
+
+.jv-form input[type="text"], .jv-form input[type="password"], .jv-form input[type="tel"], .jv-form input[type="email"], .jv-form input[type="number"], .jv-form input[type="date"], .jv-form input[type="search"], .jv-form textarea, .jv-form .jv-input-group-row {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: 0;
+  border-radius: 0.2em;
+  border: solid 1px #ccc;
+  display: block;
+  font-size: 0.7em;
+  padding: 0.6em;
+  width: 40%;
+}
+
+.jv-form .jv-form-field {
+  margin-bottom: 1em;
+}
+
+.jv-form .jv-form-field-label {
+  padding-top: 0.5em;
+  vertical-align: top;
+  width: 200px;
+}
+
+.jv-form .jv-form-field-label {
+  word-wrap: break-word;
+}
+
+.jv-form label {
+  display: inline-block;
+}
+
+/*HEADER*/
+
+h1.jv-logo>a {
+  font-family: "Amasis";
+  color: #75227d;
+}
+
+h2.jv-header {
+  font-family: "AmasisMTStd-bold";
+} 
+
+h3, h3.jv-share-widget-title, h3.jv-step-header, b {
+  font-family: "AmasisMTStd-bold";
+  color: #75227d;
+}
+
+div.jv-apply-section>h3.jv-step-header {
+  color: #000;
+}
+
+h3#jv-resume-header.jv-step-header {
+  color: #75227d;
+}
+
+p, span, div.jv-meta, td.jv-job-list-name, table.jv-job-list-name {
+  color: #555;
+}
+
+div.jv-current-openings>a {
+  color: #75227d;;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.jv-page-job .jv-header {
+  padding-right: 4em;
+}
+
+td.jv-job-list-name>a {
+  color: #000;
+}
+
+.jv-current-openings {
+  margin-top: 1em;
+}
+
+
+/*LINKS*/
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ab3383;
+}
