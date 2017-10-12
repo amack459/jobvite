@@ -37,10 +37,6 @@ h3, h3.jv-share-widget-title, h3.jv-step-header, b {
   color: #75227d;
 }
 
-div.jv-apply-section>h3.jv-step-header {
-  color: #000;
-}
-
 h3#jv-resume-header.jv-step-header {
   color: #75227d;
 }
@@ -53,11 +49,6 @@ div.jv-current-openings>a {
   color: #75227d;;
 }
 
-h2 {
-  font-weight: normal;
-  margin: 0;
-}
-
 .jv-page-job .jv-header {
   padding-right: 4em;
 }
@@ -68,15 +59,4 @@ td.jv-job-list-name>a {
 
 .jv-current-openings {
   margin-top: 1em;
-}
-
-
-/*LINKS*/
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  color: #ab3383 !important;
 }
