@@ -1,0 +1,116 @@
+@font-face {
+  body.jv-desktop {
+    font-family: "Amasis";
+    font-style: normal;
+    font-weight: bold;
+    src: url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.eot?#iefix") format("embedded-opentype"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff2") format("woff2"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff") format("woff"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.ttf") format("truetype"); } }
+
+body.jv-desktop div {
+  display: block; }
+
+body.jv-desktop body {
+  font-family: Roboto,Arial,sans-serif; }
+
+body.jv-desktop .jv-page {
+  margin: 0 auto;
+  width: 780px; }
+
+body.jv-desktop h1.jv-logo > a {
+  font-family: "Amasis";
+  color: #75227d !important; }
+
+body.jv-desktop h2.jv-header {
+  font-family: "AmasisMTStd-bold"; }
+
+body.jv-desktop h3, body.jv-desktop h3.jv-share-widget-title, body.jv-desktop h3.jv-step-header, body.jv-desktop b {
+  font-family: "AmasisMTStd-bold";
+  color: #75227d; }
+
+body.jv-desktop h3#jv-resume-header.jv-step-header {
+  color: #75227d; }
+
+body.jv-desktop p, body.jv-desktop span, body.jv-desktop div.jv-meta, body.jv-desktop td.jv-job-list-name, body.jv-desktop table.jv-job-list-name {
+  color: #555; }
+
+body.jv-desktop div.jv-current-openings > a {
+  color: #75227d; }
+
+body.jv-desktop .jv-page-job .jv-header {
+  padding-right: 4em; }
+
+body.jv-desktop td.jv-job-list-name > a {
+  color: #000; }
+
+body.jv-desktop .jv-current-openings {
+  margin-top: 1em; }
+
+body.jv-mobile .j-nav, body.jv-mobile .jv-job-list-inner {
+  background: #8f448a !important; }
+
+body.jv-mobile .jv-button-primary {
+  background-color: #8f448a !important;
+  border-color: #75227d !important; }
+
+body.jv-mobile .jv-button-primary:active {
+  background-color: #75227d !important; }
+
+body.jv-mobile .jv-button-hollow, body.jv-mobile .jv-button-hollow:visited {
+  background: transparent;
+  border-color: #8f448a !important;
+  color: #8f448a !important; }
+
+body.jv-mobile .cssanimations .jv-spinner, body.jv-mobile .cssanimations .jv-master-spinner {
+  border-top-color: #8f448a !important; }
+
+body.jv-mobile .jv-icon-primary, body.jv-mobile .jv-add-attachment-item .jv-attachment-icon, body.jv-mobile .jv-text-link, body.jv-mobile .jv-search-list .jv-list-label, body.jv-mobile .jv-search-list .jv-list-icon, body.jv-mobile .jv-job-category-link, body.jv-mobile .jv-list-icon, body.jv-mobile .jv-job-category-label, body.jv-mobile a {
+  color: #8f448a !important; }
+
+body.jv-mobile .jv-page-header {
+  background-color: #8f448a !important; }
+
+body.jv-mobile .jv-tabs {
+  background: #8f448a !important;
+  border-top: solid 1px #d6a6db !important; }
+
+body.jv-mobile .jv-tab-active:before {
+  border-top: 10px solid #8f448a !important; }
+
+body.jv-mobile .jv-tab {
+  border-left: solid 1px #d6a6db !important; }
+
+body.jv-mobile .jv-logo:after {
+  background: -owg-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: -webkit-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: -moz-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: -o-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.5em; }
+
+body.jv-mobile .jv-submit-spinner {
+  border: 3px solid #8f448a !important; }
+
+body.jv-mobile .jv-button-primary:hover {
+  background-color: #a95ba6 !important; }
+
+body.jv-mobile .jv-nav-icon {
+  color: #d6a6db !important; }
+
+body.jv-mobile .jv-job-list .jv-list-link {
+  border-color: #d6a6db !important; }
+
+body.jv-mobile .jv-logo:after {
+  background: -owg-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: -moz-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: -o-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.5em; }
