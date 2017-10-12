@@ -1,29 +1,17 @@
 // DESKTOP
+@font-face {
+  font-family: "Amasis";
+  font-style: normal;
+  font-weight: bold;
+  src: url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.eot?#iefix') format('embedded-opentype'),
+  url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff2') format('woff2'),
+  url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff') format('woff'),
+  url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.ttf') format('truetype');
+}
 
 body.jv-desktop {
-  
-  @font-face {
-    font-family: "Amasis";
-    font-style: normal;
-    font-weight: bold;
-    src: url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.eot?#iefix') format('embedded-opentype'),
-    url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff2') format('woff2'),
-    url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff') format('woff'),
-    url('http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.ttf') format('truetype');
-  }
 
-  div {
-    display: block;
-  }
-
-  body {
-    font-family: Roboto,Arial,sans-serif;
-  }
-
-  .jv-page {
-    margin: 0 auto;
-    width: 780px;
-  }
+  font-family: Roboto,Arial,sans-serif;
 
   h1.jv-logo>a {
     font-family: "Amasis";
@@ -51,16 +39,8 @@ body.jv-desktop {
     color: #75227d;;
   }
 
-  .jv-page-job .jv-header {
-    padding-right: 4em;
-  }
-
   td.jv-job-list-name>a {
     color: #000;
-  }
-
-  .jv-current-openings {
-    margin-top: 1em;
   }
 
 }

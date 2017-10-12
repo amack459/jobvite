@@ -1,48 +1,27 @@
 @font-face {
-  body.jv-desktop {
-    font-family: "Amasis";
-    font-style: normal;
-    font-weight: bold;
-    src: url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.eot?#iefix") format("embedded-opentype"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff2") format("woff2"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff") format("woff"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.ttf") format("truetype"); } }
-
-body.jv-desktop div {
-  display: block; }
-
-body.jv-desktop body {
-  font-family: Roboto,Arial,sans-serif; }
-
-body.jv-desktop .jv-page {
-  margin: 0 auto;
-  width: 780px; }
-
-body.jv-desktop h1.jv-logo > a {
   font-family: "Amasis";
-  color: #75227d !important; }
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.eot?#iefix") format("embedded-opentype"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff2") format("woff2"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.woff") format("woff"), url("http://dgnvhpcjbd3ba.cloudfront.net/AmasisMTStd-bold.ttf") format("truetype"); }
 
-body.jv-desktop h2.jv-header {
-  font-family: "AmasisMTStd-bold"; }
-
-body.jv-desktop h3, body.jv-desktop h3.jv-share-widget-title, body.jv-desktop h3.jv-step-header, body.jv-desktop b {
-  font-family: "AmasisMTStd-bold";
-  color: #75227d; }
-
-body.jv-desktop h3#jv-resume-header.jv-step-header {
-  color: #75227d; }
-
-body.jv-desktop p, body.jv-desktop span, body.jv-desktop div.jv-meta, body.jv-desktop td.jv-job-list-name, body.jv-desktop table.jv-job-list-name {
-  color: #555; }
-
-body.jv-desktop div.jv-current-openings > a {
-  color: #75227d; }
-
-body.jv-desktop .jv-page-job .jv-header {
-  padding-right: 4em; }
-
-body.jv-desktop td.jv-job-list-name > a {
-  color: #000; }
-
-body.jv-desktop .jv-current-openings {
-  margin-top: 1em; }
+body.jv-desktop {
+  font-family: Roboto,Arial,sans-serif; }
+  body.jv-desktop h1.jv-logo > a {
+    font-family: "Amasis";
+    color: #75227d !important; }
+  body.jv-desktop h2.jv-header {
+    font-family: "AmasisMTStd-bold"; }
+  body.jv-desktop h3, body.jv-desktop h3.jv-share-widget-title, body.jv-desktop h3.jv-step-header, body.jv-desktop b {
+    font-family: "AmasisMTStd-bold";
+    color: #75227d; }
+  body.jv-desktop h3#jv-resume-header.jv-step-header {
+    color: #75227d; }
+  body.jv-desktop p, body.jv-desktop span, body.jv-desktop div.jv-meta, body.jv-desktop td.jv-job-list-name, body.jv-desktop table.jv-job-list-name {
+    color: #555; }
+  body.jv-desktop div.jv-current-openings > a {
+    color: #75227d; }
+  body.jv-desktop td.jv-job-list-name > a {
+    color: #000; }
 
 body.jv-mobile .j-nav, body.jv-mobile .jv-job-list-inner {
   background: #8f448a !important; }
