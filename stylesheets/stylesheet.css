@@ -16,14 +16,14 @@ body.jv-desktop {
     color: #75227d; }
   body.jv-desktop h3#jv-resume-header.jv-step-header {
     color: #75227d; }
-  body.jv-desktop p, body.jv-desktop span, body.jv-desktop div.jv-meta, body.jv-desktop td.jv-job-list-name, body.jv-desktop table.jv-job-list-name {
+  body.jv-desktop p, body.jv-desktop div.jv-meta, body.jv-desktop td.jv-job-list-name, body.jv-desktop table.jv-job-list-name {
     color: #555; }
   body.jv-desktop div.jv-current-openings > a {
     color: #75227d; }
   body.jv-desktop td.jv-job-list-name > a {
     color: #000; }
 
-body.jv-mobile .j-nav, body.jv-mobile .jv-job-list-inner {
+body.jv-mobile .jv-nav, body.jv-mobile .jv-job-list-inner {
   background: #8f448a !important; }
 
 body.jv-mobile .jv-button-primary {
