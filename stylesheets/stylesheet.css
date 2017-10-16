@@ -41,7 +41,7 @@ body.jv-mobile .jv-button-hollow, body.jv-mobile .jv-button-hollow:visited {
 body.jv-mobile .cssanimations .jv-spinner, body.jv-mobile .cssanimations .jv-master-spinner {
   border-top-color: #8f448a !important; }
 
-body.jv-mobile .jv-icon-primary, body.jv-mobile .jv-add-attachment-item .jv-attachment-icon, body.jv-mobile .jv-text-link, body.jv-mobile .jv-search-list .jv-list-label, body.jv-mobile .jv-search-list .jv-list-icon, body.jv-mobile .jv-job-category-link, body.jv-mobile .jv-list-icon, body.jv-mobile .jv-job-category-label, body.jv-mobile a {
+body.jv-mobile .jv-icon-primary, body.jv-mobile .jv-add-attachment-item .jv-attachment-icon, body.jv-mobile .jv-text-link, body.jv-mobile .jv-search-list .jv-list-label, body.jv-mobile .jv-search-list .jv-list-icon, body.jv-mobile .jv-job-category-link, body.jv-mobile .jv-list-icon, body.jv-mobile .jv-job-category-label {
   color: #8f448a !important; }
 
 body.jv-mobile .jv-page-header {
@@ -59,7 +59,7 @@ body.jv-mobile .jv-tab {
 
 body.jv-mobile .jv-logo:after {
   background: -owg-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
-  background: -webkit-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
+  background: -webkit-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 0%);
   background: -moz-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
   background: -o-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
   background: linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
@@ -81,15 +81,3 @@ body.jv-mobile .jv-nav-icon {
 
 body.jv-mobile .jv-job-list .jv-list-link {
   border-color: #d6a6db !important; }
-
-body.jv-mobile .jv-logo:after {
-  background: -owg-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
-  background: -moz-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
-  background: -o-linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
-  background: linear-gradient(left, rgba(61, 135, 207, 0), #8f448a 40%);
-  content: "";
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 1.5em; }
